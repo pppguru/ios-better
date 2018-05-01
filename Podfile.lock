@@ -1,0 +1,161 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection (= 2.3.1)
+    - AFNetworking/NSURLSession (= 2.3.1)
+    - AFNetworking/Reachability (= 2.3.1)
+    - AFNetworking/Security (= 2.3.1)
+    - AFNetworking/Serialization (= 2.3.1)
+    - AFNetworking/UIKit (= 2.3.1)
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.7.0):
+    - Bolts/AppLinks (= 1.7.0)
+    - Bolts/Tasks (= 1.7.0)
+  - Bolts/AppLinks (1.7.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.7.0)
+  - CCBottomRefreshControl (0.5.1):
+    - Masonry (~> 0.6.2)
+  - CSGrowingTextView (1.0.5)
+  - Facebook-iOS-SDK (3.24.4):
+    - Bolts (~> 1.2)
+  - FLEX (2.1.1)
+  - FTGooglePlacesAPI (1.1):
+    - AFNetworking
+  - Google/Analytics (1.2.1):
+    - Google/Core
+    - GoogleAnalytics (~> 3.12)
+  - Google/Core (1.2.1):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleAnalytics (3.14.0)
+  - GoogleInterchangeUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.0.3)
+  - GoogleUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0.0)
+  - INTULocationManager (4.0.0)
+  - IODProfanityFilter (1.0.0)
+  - JSQMessagesViewController (7.0.1):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - LFSPGooglePlacesAutocomplete (1.0.4)
+  - Mantle (1.5.4):
+    - Mantle/extobjc (= 1.5.4)
+  - Mantle/extobjc (1.5.4)
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - PKMultipartInputStream (1.1.0)
+  - Reachability (3.2)
+  - SAMTextView (0.2.2)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - ShareKit/Core (5.0.0):
+    - PKMultipartInputStream
+    - SAMTextView (~> 0.2.1)
+    - SDWebImage (~> 3.7)
+    - ShareKit/Reachability
+    - SSKeychain (~> 1.2.2)
+    - UIActivityIndicator-for-SDWebImage (~> 1.2)
+  - ShareKit/Facebook (5.0.0):
+    - Facebook-iOS-SDK (~> 3.0)
+    - ShareKit/Core
+  - ShareKit/Reachability (5.0.0)
+  - ShareKit/Twitter (5.0.0):
+    - ShareKit/Core
+  - SSKeychain (1.2.3)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - UIAlertView-Blocks (1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.3.0)
+  - CCBottomRefreshControl (~> 0.5.1)
+  - CSGrowingTextView (from `https://github.com/cloverstudio/CSGrowingTextView`)
+  - FLEX (~> 2.0)
+  - FTGooglePlacesAPI (from `https://github.com/matiaspan/FTGooglePlacesAPI.git`)
+  - Google/Analytics
+  - INTULocationManager (from `https://github.com/intuit/LocationManager.git`, commit `930ae1551829e026984fe631756df17c4a32f9ca`)
+  - IODProfanityFilter
+  - JSQMessagesViewController
+  - LFSPGooglePlacesAutocomplete (~> 1.0.4)
+  - Mantle (~> 1.5.4)
+  - MBProgressHUD (~> 0.9.1)
+  - Reachability
+  - SDWebImage (~> 3.7.1)
+  - ShareKit/Core (~> 5.0.0)
+  - ShareKit/Facebook (~> 5.0.0)
+  - ShareKit/Twitter (~> 5.0.0)
+  - UIAlertView-Blocks (~> 1.0)
+
+EXTERNAL SOURCES:
+  CSGrowingTextView:
+    :git: https://github.com/cloverstudio/CSGrowingTextView
+  FTGooglePlacesAPI:
+    :git: https://github.com/matiaspan/FTGooglePlacesAPI.git
+  INTULocationManager:
+    :commit: 930ae1551829e026984fe631756df17c4a32f9ca
+    :git: https://github.com/intuit/LocationManager.git
+
+CHECKOUT OPTIONS:
+  CSGrowingTextView:
+    :commit: 91914e075c21479c04ab9e74dd96a10e9fc1c39f
+    :git: https://github.com/cloverstudio/CSGrowingTextView
+  FTGooglePlacesAPI:
+    :commit: 314e0c1ae284704c7a441409bfcdfbd598ef6155
+    :git: https://github.com/matiaspan/FTGooglePlacesAPI.git
+  INTULocationManager:
+    :commit: 930ae1551829e026984fe631756df17c4a32f9ca
+    :git: https://github.com/intuit/LocationManager.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 05b9f6e3aa5ac45bc383b4bb108ef338080a26c7
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
+  CCBottomRefreshControl: 57a596348855260f627ffc2b311328ed15b94877
+  CSGrowingTextView: 284f81c0ac8350a587995dbe8d56947a9957d916
+  Facebook-iOS-SDK: 5a7c414a084708220b72d5fd016f2cf3eb6deda4
+  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
+  FTGooglePlacesAPI: d2e7a0ee55d94ceec3c99586ef4b0ff3fe6fd317
+  Google: fd33b5fa40fa3aaee5176de49c873a74e3d11dce
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
+  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
+  INTULocationManager: 4e021164197f31f82c7b5d162db5cc724f3156d7
+  IODProfanityFilter: 10566999bf48ec8375c7d351d6bf9b6a1219f0cb
+  JSQMessagesViewController: 03fba8a3021a3ddc1c91847f180ffe549f2e8cf2
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  LFSPGooglePlacesAutocomplete: 072ae63665c6f27007cde82f47522bcc78e0e269
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  PKMultipartInputStream: 1fb466fac9347857e3477e4dfc6fcc62fea7a944
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  ShareKit: da7ef0875def56511cb5a7f82598d4a932ac9c6c
+  SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  UIAlertView-Blocks: 7904744fca618afbd2ec646608924f5e69d5acd1
+
+PODFILE CHECKSUM: 13d328cec1c9b0f23ebfc118e4261dd35b69661a
+
+COCOAPODS: 1.0.1

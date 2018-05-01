@@ -1,0 +1,1180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605DA4FC1C74FBD0004DC32E /* NSString+ProfanityDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 605DA4FB1C74FBD0004DC32E /* NSString+ProfanityDetector.m */; };
+		606CADAA1CA03B55003A7DFA /* WifiStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 606CADA91CA03B55003A7DFA /* WifiStatusHelper.m */; };
+		606DE4541C932D23006C20C4 /* BTSuspendedUserAlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 606DE4531C932D23006C20C4 /* BTSuspendedUserAlertHelper.m */; };
+		6076328C1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6076328B1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.m */; };
+		7F0937E11CC7CB5800EA4CF6 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0937E01CC7CB5800EA4CF6 /* StyledPageControl.m */; };
+		7F0937E71CC7CBAE00EA4CF6 /* BTOnboardingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0937E61CC7CBAE00EA4CF6 /* BTOnboardingVC.m */; };
+		7F121DB11AB8C29F002351D3 /* BTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F121DB01AB8C29F002351D3 /* BTNavigationController.m */; };
+		7F14260C1AC32CE000C9CC9A /* MKSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F14260B1AC32CE000C9CC9A /* MKSearchBar.m */; };
+		7F19FFE71B1FB774007EC6F9 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F19FFE61B1FB774007EC6F9 /* Launch Screen.xib */; };
+		7F1C3BE41BF420C100A0428C /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C3BE31BF420C100A0428C /* NSMutableArray+Shuffle.m */; };
+		7F1E48851C06355700556DA0 /* BTPasscodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E48841C06355700556DA0 /* BTPasscodeTextField.m */; };
+		7F1E48871C06A95100556DA0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1E48861C06A95100556DA0 /* MessageUI.framework */; };
+		7F2A14E71AA8D3C700A2129B /* BTUserSessionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2A14E51AA8D3C700A2129B /* BTUserSessionTVC.m */; };
+		7F2A14E81AA8D3C700A2129B /* BTUserSessionTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F2A14E61AA8D3C700A2129B /* BTUserSessionTVC.xib */; };
+		7F493EE61BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F493EE51BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.m */; };
+		7F4E98B01B307351005725A4 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F79A21B219D5200C62522 /* Gotham-Bold.otf */; };
+		7F4E98B11B307351005725A4 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F79A31B219D5200C62522 /* Gotham-Book.otf */; };
+		7F4E98B21B307351005725A4 /* Gotham-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F79A41B219D5200C62522 /* Gotham-Light.otf */; };
+		7F4E98B31B307351005725A4 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2F79A51B219D5200C62522 /* Gotham-Medium.otf */; };
+		7F4E98B71B30CB77005725A4 /* JSQMessagesCustomCVCIncoming.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4E98B51B30CB77005725A4 /* JSQMessagesCustomCVCIncoming.xib */; };
+		7F4E98B81B30CB77005725A4 /* JSQMessagesCustomCVCOutgoing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F4E98B61B30CB77005725A4 /* JSQMessagesCustomCVCOutgoing.xib */; };
+		7F4E98BB1B30D016005725A4 /* JSQMessagesCustomCVCIncoming.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E98BA1B30D016005725A4 /* JSQMessagesCustomCVCIncoming.m */; };
+		7F4E98C11B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4E98C01B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.m */; };
+		7F549FE91AA123C600508959 /* BTSearchBusinessTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F549FE71AA123C600508959 /* BTSearchBusinessTVC.m */; };
+		7F549FEA1AA123C600508959 /* BTSearchBusinessTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F549FE81AA123C600508959 /* BTSearchBusinessTVC.xib */; };
+		7F64B6111A9E12740047AA8A /* UIView+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F64B6101A9E12740047AA8A /* UIView+Gradient.m */; };
+		7F64B6141A9E1F8C0047AA8A /* BTWelcomePopupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F64B6131A9E1F8C0047AA8A /* BTWelcomePopupVC.m */; };
+		7F7099351B451E990077D8EF /* BTTemplateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7099341B451E990077D8EF /* BTTemplateVC.m */; };
+		7F70993A1B4541140077D8EF /* BTMessageTemplateTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7099381B4541140077D8EF /* BTMessageTemplateTVC.m */; };
+		7F70993B1B4541140077D8EF /* BTMessageTemplateTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7099391B4541140077D8EF /* BTMessageTemplateTVC.xib */; };
+		7F7099421B45663A0077D8EF /* BTRewardTemplateTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7099401B45663A0077D8EF /* BTRewardTemplateTVC.m */; };
+		7F7099431B45663A0077D8EF /* BTRewardTemplateTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F7099411B45663A0077D8EF /* BTRewardTemplateTVC.xib */; };
+		7F85FE621C189D9D00CBED69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F85FE611C189D9D00CBED69 /* GoogleService-Info.plist */; };
+		7F8E10031B373CD100D9C21B /* BTSurveyCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E10021B373CD100D9C21B /* BTSurveyCardView.m */; };
+		7F8E10051B373CEF00D9C21B /* BTSurveyCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E10041B373CEF00D9C21B /* BTSurveyCardView.xib */; };
+		7F8E10081B3758AD00D9C21B /* BTSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E10071B3758AD00D9C21B /* BTSurvey.m */; };
+		7F8E100B1B383B6200D9C21B /* BTBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E100A1B383B6200D9C21B /* BTBarChartView.m */; };
+		7F8E10161B386F0B00D9C21B /* BTEditSurveyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E10151B386F0B00D9C21B /* BTEditSurveyVC.m */; };
+		7F8E101A1B387EC300D9C21B /* BTSurveyTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E10181B387EC300D9C21B /* BTSurveyTVC.m */; };
+		7F8E101B1B387EC300D9C21B /* BTSurveyTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E10191B387EC300D9C21B /* BTSurveyTVC.xib */; };
+		7F8F12CA1AA389C400E53650 /* BTStatisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F12C91AA389C400E53650 /* BTStatisticsView.m */; };
+		7F8F12CC1AA389D600E53650 /* BTStatisticsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8F12CB1AA389D600E53650 /* BTStatisticsView.xib */; };
+		7F9AB6551AF95660008179FD /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9AB6531AF95660008179FD /* Fabric.framework */; };
+		7F9AB6561AF95660008179FD /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F9AB6541AF95660008179FD /* Crashlytics.framework */; };
+		7F9CAD8A1ACCE66A00648CB8 /* BTSendRewardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9CAD891ACCE66A00648CB8 /* BTSendRewardVC.m */; };
+		7FA2E9381BE4054F00C063B3 /* BTSurveyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA2E9371BE4054F00C063B3 /* BTSurveyManager.m */; };
+		7FA61CF61A9E49CD009D57ED /* BTCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA61CF51A9E49CD009D57ED /* BTCardView.m */; };
+		7FA61CF81A9E49DB009D57ED /* BTCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FA61CF71A9E49DB009D57ED /* BTCardView.xib */; };
+		7FA86B941B3169FC00E9C42C /* JSQMessagesCustomCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA86B931B3169FC00E9C42C /* JSQMessagesCustomCVC.m */; };
+		7FAC08561B48CF5900F44C83 /* BTStatsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAC08551B48CF5900F44C83 /* BTStatsView.m */; };
+		7FB8ED921ABFD1A0005FAA50 /* BTSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8ED911ABFD1A0005FAA50 /* BTSubscription.m */; };
+		7FB8ED951AC0366B005FAA50 /* BTViewRewardsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8ED941AC0366B005FAA50 /* BTViewRewardsVC.m */; };
+		7FB8ED981AC038FA005FAA50 /* BTIncentive.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8ED971AC038FA005FAA50 /* BTIncentive.m */; };
+		7FBEDC8B1C2985A70036739A /* NavigationBarDrawingKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDC8A1C2985A70036739A /* NavigationBarDrawingKit.m */; };
+		7FBEDC931C298B8C0036739A /* BTNavBarIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBEDC921C298B8C0036739A /* BTNavBarIconView.m */; };
+		7FD653441BF8659300EE9C59 /* BTSubscriptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD653431BF8659300EE9C59 /* BTSubscriptionVC.m */; };
+		7FE6783A1C0DED2D00255A92 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE678391C0DED2D00255A92 /* Photos.framework */; };
+		7FF1B6E21AF0097100D7B575 /* BTEnabledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1B6E11AF0097100D7B575 /* BTEnabledButton.m */; };
+		7FFB7CBD1ACC8790001025F6 /* UIView+AlertLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB7CBC1ACC8790001025F6 /* UIView+AlertLabel.m */; };
+		7FFBC5E01BD6828F00D08DCD /* BTFeedbackSentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBC5DF1BD6828F00D08DCD /* BTFeedbackSentVC.m */; };
+		7FFECED91AAA04FB00DB0C57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFECED81AAA04FB00DB0C57 /* CoreLocation.framework */; };
+		A471CE1328A3527D14ECA007 /* libPods-BetterIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BDAFBB2DF56197F9801438 /* libPods-BetterIt.a */; };
+		A750EAD71C5C02DA00A79F89 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A750EAD61C5C02DA00A79F89 /* NSData+Base64.m */; };
+		A7E608E91C519548000B9512 /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E608E21C519548000B9512 /* IAPHelper.m */; };
+		A7E608EA1C519548000B9512 /* IAPShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E608E41C519548000B9512 /* IAPShare.m */; };
+		A7E608EB1C519548000B9512 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E608E61C519548000B9512 /* NSString+Base64.m */; };
+		A7E608EC1C519548000B9512 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E608E81C519548000B9512 /* SFHFKeychainUtils.m */; };
+		A7FCA2881C517B1500902D49 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCA2871C517B1500902D49 /* StoreKit.framework */; };
+		B023F8621CDA4BF60087161F /* BTSHKConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = B023F8611CDA4BF60087161F /* BTSHKConfigurator.m */; };
+		B023F8681CDA68FD0087161F /* BTFortuneCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B023F8671CDA68FD0087161F /* BTFortuneCard.m */; };
+		D52612B51A8846030077F81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D52612B41A8846030077F81F /* main.m */; };
+		D52612B81A8846030077F81F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D52612B71A8846030077F81F /* AppDelegate.m */; };
+		D52612BE1A8846030077F81F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52612BC1A8846030077F81F /* Main.storyboard */; };
+		D52612C01A8846030077F81F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52612BF1A8846030077F81F /* Images.xcassets */; };
+		D558A4731AEFD35600CA5429 /* banned_words.plist in Resources */ = {isa = PBXBuildFile; fileRef = D558A4721AEFD35600CA5429 /* banned_words.plist */; };
+		D55970141AAF6CEF004ADC79 /* BTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D55970131AAF6CEF004ADC79 /* BTUser.m */; };
+		D55AC8391ABBB2BE00603ABE /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D55AC8381ABBB2BE00603ABE /* NSString+Additions.m */; };
+		D55AC83C1ABBC43F00603ABE /* BTUpdatePINVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55AC83B1ABBC43F00603ABE /* BTUpdatePINVC.m */; };
+		D55AC8421ABBDD0D00603ABE /* BTBusinessSessionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55AC8401ABBDD0D00603ABE /* BTBusinessSessionTVC.m */; };
+		D55AC8431ABBDD0D00603ABE /* BTBusinessSessionTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D55AC8411ABBDD0D00603ABE /* BTBusinessSessionTVC.xib */; };
+		D55C298E1A89978A00E5BDFE /* BTMainVCBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C297C1A89978A00E5BDFE /* BTMainVCBusiness.m */; };
+		D55C298F1A89978A00E5BDFE /* BTMainVCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C297E1A89978A00E5BDFE /* BTMainVCUser.m */; };
+		D55C29901A89978A00E5BDFE /* BTMessageVCBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29811A89978A00E5BDFE /* BTMessageVCBusiness.m */; };
+		D55C29911A89978A00E5BDFE /* BTMessageVCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29831A89978A00E5BDFE /* BTMessageVCUser.m */; };
+		D55C29921A89978A00E5BDFE /* BTProfileVCBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29861A89978A00E5BDFE /* BTProfileVCBusiness.m */; };
+		D55C29931A89978A00E5BDFE /* BTProfileVCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29881A89978A00E5BDFE /* BTProfileVCUser.m */; };
+		D55C29A21A89E1D200E5BDFE /* BTMessageBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29A11A89E1D200E5BDFE /* BTMessageBaseVC.m */; };
+		D55C29B21A89F1BF00E5BDFE /* BTSearchMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29AF1A89F1BF00E5BDFE /* BTSearchMainVC.m */; };
+		D55C29B31A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29B11A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.m */; };
+		D55C29BB1A89F1C900E5BDFE /* BTChatBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29B61A89F1C900E5BDFE /* BTChatBaseVC.m */; };
+		D55C29BC1A89F1C900E5BDFE /* BTChatVCBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29B81A89F1C900E5BDFE /* BTChatVCBusiness.m */; };
+		D55C29BD1A89F1C900E5BDFE /* BTChatVCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29BA1A89F1C900E5BDFE /* BTChatVCUser.m */; };
+		D55C29C41A89F25000E5BDFE /* BTProfileSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29C31A89F25000E5BDFE /* BTProfileSetupController.m */; };
+		D55C29C71A89F2CC00E5BDFE /* BTProfileSetupIntroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29C61A89F2CC00E5BDFE /* BTProfileSetupIntroVC.m */; };
+		D55C29CA1A89F34C00E5BDFE /* BTProfileSetupFinalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D55C29C91A89F34C00E5BDFE /* BTProfileSetupFinalVC.m */; };
+		D56658D31ABA2EE10089BE00 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D56658D21ABA2EE10089BE00 /* Common.m */; };
+		D57ABCFA1AAE8DB80046E672 /* NSArray+Plist.m in Sources */ = {isa = PBXBuildFile; fileRef = D57ABCF91AAE8DB80046E672 /* NSArray+Plist.m */; };
+		D58D2C471AAE0C6F004606F8 /* BTRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D58D2C461AAE0C6F004606F8 /* BTRestClient.m */; };
+		D59740A11AAF825E0086D824 /* BTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59740A01AAF825E0086D824 /* BTModel.m */; };
+		D5B3E5621AB231D8001B578D /* BTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3E5611AB231D8001B578D /* BTMessage.m */; };
+		D5B3E5651AB29C74001B578D /* BTMessageSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B3E5641AB29C74001B578D /* BTMessageSession.m */; };
+		D5B8361B1A890C88004BFCD2 /* BTRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B8361A1A890C88004BFCD2 /* BTRootVC.m */; };
+		D5B8361F1A893A1A004BFCD2 /* BTPopupBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B8361E1A893A1A004BFCD2 /* BTPopupBaseVC.m */; };
+		D5B836221A893DD5004BFCD2 /* BTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B836211A893DD5004BFCD2 /* BTConfig.m */; };
+		D5C28AEA1AB1CA50005F8264 /* NoAnimationPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C28AE91AB1CA50005F8264 /* NoAnimationPushSegue.m */; };
+		D5C8B6691AB5665100E1124D /* BTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8B6681AB5665100E1124D /* BTObject.m */; };
+		D5C8B66C1AB570B900E1124D /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8B66B1AB570B900E1124D /* NSDate+Additions.m */; };
+		D5C8B6771AB71B6D00E1124D /* BTPhotoFullScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8B6761AB71B6D00E1124D /* BTPhotoFullScreenVC.m */; };
+		D5E076131AB0988B00D5F01C /* BTBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E076121AB0988B00D5F01C /* BTBusiness.m */; };
+		D5E076161AB0A2DF00D5F01C /* BTSearchBusinessController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E076151AB0A2DF00D5F01C /* BTSearchBusinessController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		605DA4FA1C74FBD0004DC32E /* NSString+ProfanityDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ProfanityDetector.h"; sourceTree = "<group>"; };
+		605DA4FB1C74FBD0004DC32E /* NSString+ProfanityDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ProfanityDetector.m"; sourceTree = "<group>"; };
+		606CADA81CA03B55003A7DFA /* WifiStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiStatusHelper.h; sourceTree = "<group>"; };
+		606CADA91CA03B55003A7DFA /* WifiStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiStatusHelper.m; sourceTree = "<group>"; };
+		606DE4521C932D23006C20C4 /* BTSuspendedUserAlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSuspendedUserAlertHelper.h; sourceTree = "<group>"; };
+		606DE4531C932D23006C20C4 /* BTSuspendedUserAlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSuspendedUserAlertHelper.m; sourceTree = "<group>"; };
+		6076328A1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUserIdentifierHelper.h; sourceTree = "<group>"; };
+		6076328B1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUserIdentifierHelper.m; sourceTree = "<group>"; };
+		61BDAFBB2DF56197F9801438 /* libPods-BetterIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BetterIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0937DF1CC7CB5800EA4CF6 /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
+		7F0937E01CC7CB5800EA4CF6 /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
+		7F0937E51CC7CBAE00EA4CF6 /* BTOnboardingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTOnboardingVC.h; sourceTree = "<group>"; };
+		7F0937E61CC7CBAE00EA4CF6 /* BTOnboardingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTOnboardingVC.m; sourceTree = "<group>"; };
+		7F121DAF1AB8C29F002351D3 /* BTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavigationController.h; sourceTree = "<group>"; };
+		7F121DB01AB8C29F002351D3 /* BTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavigationController.m; sourceTree = "<group>"; };
+		7F14260A1AC32CE000C9CC9A /* MKSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKSearchBar.h; path = ../MKSearchBar.h; sourceTree = "<group>"; };
+		7F14260B1AC32CE000C9CC9A /* MKSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKSearchBar.m; path = ../MKSearchBar.m; sourceTree = "<group>"; };
+		7F19FFE61B1FB774007EC6F9 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		7F1C3BE21BF420C100A0428C /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		7F1C3BE31BF420C100A0428C /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		7F1E48831C06355700556DA0 /* BTPasscodeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPasscodeTextField.h; sourceTree = "<group>"; };
+		7F1E48841C06355700556DA0 /* BTPasscodeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPasscodeTextField.m; sourceTree = "<group>"; };
+		7F1E48861C06A95100556DA0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7F2A14E41AA8D3C700A2129B /* BTUserSessionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUserSessionTVC.h; sourceTree = "<group>"; };
+		7F2A14E51AA8D3C700A2129B /* BTUserSessionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUserSessionTVC.m; sourceTree = "<group>"; };
+		7F2A14E61AA8D3C700A2129B /* BTUserSessionTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTUserSessionTVC.xib; sourceTree = "<group>"; };
+		7F2F79A21B219D5200C62522 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Bold.otf"; sourceTree = "<group>"; };
+		7F2F79A31B219D5200C62522 /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Book.otf"; sourceTree = "<group>"; };
+		7F2F79A41B219D5200C62522 /* Gotham-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Light.otf"; sourceTree = "<group>"; };
+		7F2F79A51B219D5200C62522 /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham-Medium.otf"; sourceTree = "<group>"; };
+		7F493EE41BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INTULocationManager+CurrentLocation.h"; sourceTree = "<group>"; };
+		7F493EE51BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "INTULocationManager+CurrentLocation.m"; sourceTree = "<group>"; };
+		7F4E98B51B30CB77005725A4 /* JSQMessagesCustomCVCIncoming.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesCustomCVCIncoming.xib; sourceTree = "<group>"; };
+		7F4E98B61B30CB77005725A4 /* JSQMessagesCustomCVCOutgoing.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSQMessagesCustomCVCOutgoing.xib; sourceTree = "<group>"; };
+		7F4E98B91B30D016005725A4 /* JSQMessagesCustomCVCIncoming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesCustomCVCIncoming.h; sourceTree = "<group>"; };
+		7F4E98BA1B30D016005725A4 /* JSQMessagesCustomCVCIncoming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesCustomCVCIncoming.m; sourceTree = "<group>"; };
+		7F4E98BF1B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesCustomCVCOutgoing.h; sourceTree = "<group>"; };
+		7F4E98C01B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesCustomCVCOutgoing.m; sourceTree = "<group>"; };
+		7F549FE61AA123C600508959 /* BTSearchBusinessTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchBusinessTVC.h; sourceTree = "<group>"; };
+		7F549FE71AA123C600508959 /* BTSearchBusinessTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchBusinessTVC.m; sourceTree = "<group>"; };
+		7F549FE81AA123C600508959 /* BTSearchBusinessTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSearchBusinessTVC.xib; sourceTree = "<group>"; };
+		7F64B60F1A9E12740047AA8A /* UIView+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Gradient.h"; sourceTree = "<group>"; };
+		7F64B6101A9E12740047AA8A /* UIView+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Gradient.m"; sourceTree = "<group>"; };
+		7F64B6121A9E1F8C0047AA8A /* BTWelcomePopupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTWelcomePopupVC.h; sourceTree = "<group>"; };
+		7F64B6131A9E1F8C0047AA8A /* BTWelcomePopupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTWelcomePopupVC.m; sourceTree = "<group>"; };
+		7F7099331B451E990077D8EF /* BTTemplateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTemplateVC.h; sourceTree = "<group>"; };
+		7F7099341B451E990077D8EF /* BTTemplateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTTemplateVC.m; sourceTree = "<group>"; };
+		7F7099361B4524E50077D8EF /* BTTemplateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTTemplateCell.h; sourceTree = "<group>"; };
+		7F7099371B4541140077D8EF /* BTMessageTemplateTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageTemplateTVC.h; sourceTree = "<group>"; };
+		7F7099381B4541140077D8EF /* BTMessageTemplateTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageTemplateTVC.m; sourceTree = "<group>"; };
+		7F7099391B4541140077D8EF /* BTMessageTemplateTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTMessageTemplateTVC.xib; sourceTree = "<group>"; };
+		7F70993F1B45663A0077D8EF /* BTRewardTemplateTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRewardTemplateTVC.h; sourceTree = "<group>"; };
+		7F7099401B45663A0077D8EF /* BTRewardTemplateTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRewardTemplateTVC.m; sourceTree = "<group>"; };
+		7F7099411B45663A0077D8EF /* BTRewardTemplateTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTRewardTemplateTVC.xib; sourceTree = "<group>"; };
+		7F85FE611C189D9D00CBED69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F8E10011B373CD100D9C21B /* BTSurveyCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSurveyCardView.h; sourceTree = "<group>"; };
+		7F8E10021B373CD100D9C21B /* BTSurveyCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSurveyCardView.m; sourceTree = "<group>"; };
+		7F8E10041B373CEF00D9C21B /* BTSurveyCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSurveyCardView.xib; sourceTree = "<group>"; };
+		7F8E10061B3758AD00D9C21B /* BTSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSurvey.h; sourceTree = "<group>"; };
+		7F8E10071B3758AD00D9C21B /* BTSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSurvey.m; sourceTree = "<group>"; };
+		7F8E10091B383B6200D9C21B /* BTBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBarChartView.h; sourceTree = "<group>"; };
+		7F8E100A1B383B6200D9C21B /* BTBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBarChartView.m; sourceTree = "<group>"; };
+		7F8E10141B386F0B00D9C21B /* BTEditSurveyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEditSurveyVC.h; sourceTree = "<group>"; };
+		7F8E10151B386F0B00D9C21B /* BTEditSurveyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEditSurveyVC.m; sourceTree = "<group>"; };
+		7F8E10171B387EC300D9C21B /* BTSurveyTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSurveyTVC.h; sourceTree = "<group>"; };
+		7F8E10181B387EC300D9C21B /* BTSurveyTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSurveyTVC.m; sourceTree = "<group>"; };
+		7F8E10191B387EC300D9C21B /* BTSurveyTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTSurveyTVC.xib; sourceTree = "<group>"; };
+		7F8F12C81AA389C400E53650 /* BTStatisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTStatisticsView.h; sourceTree = "<group>"; };
+		7F8F12C91AA389C400E53650 /* BTStatisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTStatisticsView.m; sourceTree = "<group>"; };
+		7F8F12CB1AA389D600E53650 /* BTStatisticsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTStatisticsView.xib; sourceTree = "<group>"; };
+		7F9AB6531AF95660008179FD /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7F9AB6541AF95660008179FD /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		7F9CAD881ACCE66A00648CB8 /* BTSendRewardVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSendRewardVC.h; sourceTree = "<group>"; };
+		7F9CAD891ACCE66A00648CB8 /* BTSendRewardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSendRewardVC.m; sourceTree = "<group>"; };
+		7FA2E9361BE4054F00C063B3 /* BTSurveyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSurveyManager.h; sourceTree = "<group>"; };
+		7FA2E9371BE4054F00C063B3 /* BTSurveyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSurveyManager.m; sourceTree = "<group>"; };
+		7FA61CF41A9E49CD009D57ED /* BTCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCardView.h; sourceTree = "<group>"; };
+		7FA61CF51A9E49CD009D57ED /* BTCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCardView.m; sourceTree = "<group>"; };
+		7FA61CF71A9E49DB009D57ED /* BTCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTCardView.xib; sourceTree = "<group>"; };
+		7FA86B921B3169FC00E9C42C /* JSQMessagesCustomCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesCustomCVC.h; sourceTree = "<group>"; };
+		7FA86B931B3169FC00E9C42C /* JSQMessagesCustomCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesCustomCVC.m; sourceTree = "<group>"; };
+		7FAC08541B48CF5900F44C83 /* BTStatsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTStatsView.h; sourceTree = "<group>"; };
+		7FAC08551B48CF5900F44C83 /* BTStatsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTStatsView.m; sourceTree = "<group>"; };
+		7FB8ED901ABFD1A0005FAA50 /* BTSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubscription.h; sourceTree = "<group>"; };
+		7FB8ED911ABFD1A0005FAA50 /* BTSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubscription.m; sourceTree = "<group>"; };
+		7FB8ED931AC0366B005FAA50 /* BTViewRewardsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTViewRewardsVC.h; sourceTree = "<group>"; };
+		7FB8ED941AC0366B005FAA50 /* BTViewRewardsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTViewRewardsVC.m; sourceTree = "<group>"; };
+		7FB8ED961AC038FA005FAA50 /* BTIncentive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTIncentive.h; sourceTree = "<group>"; };
+		7FB8ED971AC038FA005FAA50 /* BTIncentive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTIncentive.m; sourceTree = "<group>"; };
+		7FBEDC891C2985A70036739A /* NavigationBarDrawingKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarDrawingKit.h; sourceTree = "<group>"; };
+		7FBEDC8A1C2985A70036739A /* NavigationBarDrawingKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarDrawingKit.m; sourceTree = "<group>"; };
+		7FBEDC911C298B8C0036739A /* BTNavBarIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTNavBarIconView.h; sourceTree = "<group>"; };
+		7FBEDC921C298B8C0036739A /* BTNavBarIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTNavBarIconView.m; sourceTree = "<group>"; };
+		7FD653421BF8659300EE9C59 /* BTSubscriptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSubscriptionVC.h; sourceTree = "<group>"; };
+		7FD653431BF8659300EE9C59 /* BTSubscriptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSubscriptionVC.m; sourceTree = "<group>"; };
+		7FE678391C0DED2D00255A92 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		7FF1B6E01AF0097100D7B575 /* BTEnabledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTEnabledButton.h; sourceTree = "<group>"; };
+		7FF1B6E11AF0097100D7B575 /* BTEnabledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTEnabledButton.m; sourceTree = "<group>"; };
+		7FFB7CBB1ACC8790001025F6 /* UIView+AlertLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AlertLabel.h"; sourceTree = "<group>"; };
+		7FFB7CBC1ACC8790001025F6 /* UIView+AlertLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AlertLabel.m"; sourceTree = "<group>"; };
+		7FFBC5DE1BD6828F00D08DCD /* BTFeedbackSentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFeedbackSentVC.h; sourceTree = "<group>"; };
+		7FFBC5DF1BD6828F00D08DCD /* BTFeedbackSentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFeedbackSentVC.m; sourceTree = "<group>"; };
+		7FFECED81AAA04FB00DB0C57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8DD2E123C2748B316AD0DB5B /* Pods-BetterIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterIt/Pods-BetterIt.release.xcconfig"; sourceTree = "<group>"; };
+		A750EAD51C5C02DA00A79F89 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A750EAD61C5C02DA00A79F89 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A7E608E11C519548000B9512 /* IAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		A7E608E21C519548000B9512 /* IAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		A7E608E31C519548000B9512 /* IAPShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPShare.h; sourceTree = "<group>"; };
+		A7E608E41C519548000B9512 /* IAPShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPShare.m; sourceTree = "<group>"; };
+		A7E608E51C519548000B9512 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		A7E608E61C519548000B9512 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		A7E608E71C519548000B9512 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		A7E608E81C519548000B9512 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		A7FCA2871C517B1500902D49 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AB7A9DC6D5EDAF448A6F2E4E /* Pods-BetterIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterIt/Pods-BetterIt.debug.xcconfig"; sourceTree = "<group>"; };
+		B023F8601CDA4BF60087161F /* BTSHKConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSHKConfigurator.h; sourceTree = "<group>"; };
+		B023F8611CDA4BF60087161F /* BTSHKConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSHKConfigurator.m; sourceTree = "<group>"; };
+		B023F8661CDA68FD0087161F /* BTFortuneCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTFortuneCard.h; sourceTree = "<group>"; };
+		B023F8671CDA68FD0087161F /* BTFortuneCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTFortuneCard.m; sourceTree = "<group>"; };
+		D52612AF1A8846030077F81F /* BetterIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52612B31A8846030077F81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52612B41A8846030077F81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D52612B61A8846030077F81F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D52612B71A8846030077F81F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D52612BD1A8846030077F81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D52612BF1A8846030077F81F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D558A4721AEFD35600CA5429 /* banned_words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = banned_words.plist; sourceTree = "<group>"; };
+		D55970121AAF6CEF004ADC79 /* BTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUser.h; sourceTree = "<group>"; };
+		D55970131AAF6CEF004ADC79 /* BTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUser.m; sourceTree = "<group>"; };
+		D55AC8371ABBB2BE00603ABE /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		D55AC8381ABBB2BE00603ABE /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		D55AC83A1ABBC43F00603ABE /* BTUpdatePINVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTUpdatePINVC.h; sourceTree = "<group>"; };
+		D55AC83B1ABBC43F00603ABE /* BTUpdatePINVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTUpdatePINVC.m; sourceTree = "<group>"; };
+		D55AC83E1ABBDB1600603ABE /* BTMessageSessionTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTMessageSessionTVC.h; sourceTree = "<group>"; };
+		D55AC83F1ABBDD0D00603ABE /* BTBusinessSessionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBusinessSessionTVC.h; sourceTree = "<group>"; };
+		D55AC8401ABBDD0D00603ABE /* BTBusinessSessionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBusinessSessionTVC.m; sourceTree = "<group>"; };
+		D55AC8411ABBDD0D00603ABE /* BTBusinessSessionTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BTBusinessSessionTVC.xib; sourceTree = "<group>"; };
+		D55C29751A89968C00E5BDFE /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		D55C297A1A89978A00E5BDFE /* BTMainProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMainProtocol.h; sourceTree = "<group>"; };
+		D55C297B1A89978A00E5BDFE /* BTMainVCBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMainVCBusiness.h; sourceTree = "<group>"; };
+		D55C297C1A89978A00E5BDFE /* BTMainVCBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMainVCBusiness.m; sourceTree = "<group>"; };
+		D55C297D1A89978A00E5BDFE /* BTMainVCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMainVCUser.h; sourceTree = "<group>"; };
+		D55C297E1A89978A00E5BDFE /* BTMainVCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMainVCUser.m; sourceTree = "<group>"; };
+		D55C29801A89978A00E5BDFE /* BTMessageVCBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageVCBusiness.h; sourceTree = "<group>"; };
+		D55C29811A89978A00E5BDFE /* BTMessageVCBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageVCBusiness.m; sourceTree = "<group>"; };
+		D55C29821A89978A00E5BDFE /* BTMessageVCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageVCUser.h; sourceTree = "<group>"; };
+		D55C29831A89978A00E5BDFE /* BTMessageVCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageVCUser.m; sourceTree = "<group>"; };
+		D55C29851A89978A00E5BDFE /* BTProfileVCBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProfileVCBusiness.h; sourceTree = "<group>"; };
+		D55C29861A89978A00E5BDFE /* BTProfileVCBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProfileVCBusiness.m; sourceTree = "<group>"; };
+		D55C29871A89978A00E5BDFE /* BTProfileVCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProfileVCUser.h; sourceTree = "<group>"; };
+		D55C29881A89978A00E5BDFE /* BTProfileVCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProfileVCUser.m; sourceTree = "<group>"; };
+		D55C29A01A89E1D200E5BDFE /* BTMessageBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageBaseVC.h; sourceTree = "<group>"; };
+		D55C29A11A89E1D200E5BDFE /* BTMessageBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageBaseVC.m; sourceTree = "<group>"; };
+		D55C29AE1A89F1BF00E5BDFE /* BTSearchMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchMainVC.h; sourceTree = "<group>"; };
+		D55C29AF1A89F1BF00E5BDFE /* BTSearchMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchMainVC.m; sourceTree = "<group>"; };
+		D55C29B01A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchRecentPlaceVC.h; sourceTree = "<group>"; };
+		D55C29B11A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchRecentPlaceVC.m; sourceTree = "<group>"; };
+		D55C29B51A89F1C900E5BDFE /* BTChatBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChatBaseVC.h; sourceTree = "<group>"; };
+		D55C29B61A89F1C900E5BDFE /* BTChatBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTChatBaseVC.m; sourceTree = "<group>"; };
+		D55C29B71A89F1C900E5BDFE /* BTChatVCBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChatVCBusiness.h; sourceTree = "<group>"; };
+		D55C29B81A89F1C900E5BDFE /* BTChatVCBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTChatVCBusiness.m; sourceTree = "<group>"; };
+		D55C29B91A89F1C900E5BDFE /* BTChatVCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTChatVCUser.h; sourceTree = "<group>"; };
+		D55C29BA1A89F1C900E5BDFE /* BTChatVCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTChatVCUser.m; sourceTree = "<group>"; };
+		D55C29C21A89F25000E5BDFE /* BTProfileSetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProfileSetupController.h; sourceTree = "<group>"; };
+		D55C29C31A89F25000E5BDFE /* BTProfileSetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProfileSetupController.m; sourceTree = "<group>"; };
+		D55C29C51A89F2CC00E5BDFE /* BTProfileSetupIntroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProfileSetupIntroVC.h; sourceTree = "<group>"; };
+		D55C29C61A89F2CC00E5BDFE /* BTProfileSetupIntroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProfileSetupIntroVC.m; sourceTree = "<group>"; };
+		D55C29C81A89F34C00E5BDFE /* BTProfileSetupFinalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTProfileSetupFinalVC.h; sourceTree = "<group>"; };
+		D55C29C91A89F34C00E5BDFE /* BTProfileSetupFinalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTProfileSetupFinalVC.m; sourceTree = "<group>"; };
+		D56658D21ABA2EE10089BE00 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		D57ABCF81AAE8DB80046E672 /* NSArray+Plist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Plist.h"; sourceTree = "<group>"; };
+		D57ABCF91AAE8DB80046E672 /* NSArray+Plist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Plist.m"; sourceTree = "<group>"; };
+		D58D2C451AAE0C6F004606F8 /* BTRestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRestClient.h; sourceTree = "<group>"; };
+		D58D2C461AAE0C6F004606F8 /* BTRestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRestClient.m; sourceTree = "<group>"; };
+		D58D2C481AAE0CA6004606F8 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		D597409F1AAF825E0086D824 /* BTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTModel.h; sourceTree = "<group>"; };
+		D59740A01AAF825E0086D824 /* BTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTModel.m; sourceTree = "<group>"; };
+		D5B3E5601AB231D8001B578D /* BTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessage.h; sourceTree = "<group>"; };
+		D5B3E5611AB231D8001B578D /* BTMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessage.m; sourceTree = "<group>"; };
+		D5B3E5631AB29C74001B578D /* BTMessageSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTMessageSession.h; sourceTree = "<group>"; };
+		D5B3E5641AB29C74001B578D /* BTMessageSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTMessageSession.m; sourceTree = "<group>"; };
+		D5B836191A890C88004BFCD2 /* BTRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRootVC.h; sourceTree = "<group>"; };
+		D5B8361A1A890C88004BFCD2 /* BTRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRootVC.m; sourceTree = "<group>"; };
+		D5B8361D1A893A1A004BFCD2 /* BTPopupBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPopupBaseVC.h; sourceTree = "<group>"; };
+		D5B8361E1A893A1A004BFCD2 /* BTPopupBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPopupBaseVC.m; sourceTree = "<group>"; };
+		D5B836201A893DD5004BFCD2 /* BTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTConfig.h; sourceTree = "<group>"; };
+		D5B836211A893DD5004BFCD2 /* BTConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTConfig.m; sourceTree = "<group>"; };
+		D5C28AE81AB1CA50005F8264 /* NoAnimationPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoAnimationPushSegue.h; sourceTree = "<group>"; };
+		D5C28AE91AB1CA50005F8264 /* NoAnimationPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoAnimationPushSegue.m; sourceTree = "<group>"; };
+		D5C8B6671AB5665100E1124D /* BTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTObject.h; sourceTree = "<group>"; };
+		D5C8B6681AB5665100E1124D /* BTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTObject.m; sourceTree = "<group>"; };
+		D5C8B66A1AB570B900E1124D /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		D5C8B66B1AB570B900E1124D /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		D5C8B6751AB71B6D00E1124D /* BTPhotoFullScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPhotoFullScreenVC.h; sourceTree = "<group>"; };
+		D5C8B6761AB71B6D00E1124D /* BTPhotoFullScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPhotoFullScreenVC.m; sourceTree = "<group>"; };
+		D5E076111AB0988B00D5F01C /* BTBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTBusiness.h; sourceTree = "<group>"; };
+		D5E076121AB0988B00D5F01C /* BTBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTBusiness.m; sourceTree = "<group>"; };
+		D5E076141AB0A2DF00D5F01C /* BTSearchBusinessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSearchBusinessController.h; sourceTree = "<group>"; };
+		D5E076151AB0A2DF00D5F01C /* BTSearchBusinessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSearchBusinessController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D52612AC1A8846030077F81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE6783A1C0DED2D00255A92 /* Photos.framework in Frameworks */,
+				A7FCA2881C517B1500902D49 /* StoreKit.framework in Frameworks */,
+				7F1E48871C06A95100556DA0 /* MessageUI.framework in Frameworks */,
+				7FFECED91AAA04FB00DB0C57 /* CoreLocation.framework in Frameworks */,
+				7F9AB6561AF95660008179FD /* Crashlytics.framework in Frameworks */,
+				7F9AB6551AF95660008179FD /* Fabric.framework in Frameworks */,
+				A471CE1328A3527D14ECA007 /* libPods-BetterIt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2329DB25D1182D51A636D528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7FCA2871C517B1500902D49 /* StoreKit.framework */,
+				7FE678391C0DED2D00255A92 /* Photos.framework */,
+				7F1E48861C06A95100556DA0 /* MessageUI.framework */,
+				7F9AB6531AF95660008179FD /* Fabric.framework */,
+				7F9AB6541AF95660008179FD /* Crashlytics.framework */,
+				7FFECED81AAA04FB00DB0C57 /* CoreLocation.framework */,
+				61BDAFBB2DF56197F9801438 /* libPods-BetterIt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F0937DE1CC7CB4400EA4CF6 /* StyledPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				7F0937DF1CC7CB5800EA4CF6 /* StyledPageControl.h */,
+				7F0937E01CC7CB5800EA4CF6 /* StyledPageControl.m */,
+			);
+			name = StyledPageControl;
+			sourceTree = "<group>";
+		};
+		7F4E98B41B30CB45005725A4 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7F4E98B51B30CB77005725A4 /* JSQMessagesCustomCVCIncoming.xib */,
+				7F4E98B91B30D016005725A4 /* JSQMessagesCustomCVCIncoming.h */,
+				7F4E98BA1B30D016005725A4 /* JSQMessagesCustomCVCIncoming.m */,
+				7F4E98B61B30CB77005725A4 /* JSQMessagesCustomCVCOutgoing.xib */,
+				7F4E98BF1B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.h */,
+				7F4E98C01B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.m */,
+				7FA86B921B3169FC00E9C42C /* JSQMessagesCustomCVC.h */,
+				7FA86B931B3169FC00E9C42C /* JSQMessagesCustomCVC.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		7F549FE51AA1238000508959 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D55AC83D1ABBDAF000603ABE /* MessageSessionTVC */,
+				7F549FE61AA123C600508959 /* BTSearchBusinessTVC.h */,
+				7F549FE71AA123C600508959 /* BTSearchBusinessTVC.m */,
+				7F549FE81AA123C600508959 /* BTSearchBusinessTVC.xib */,
+				7F8E10171B387EC300D9C21B /* BTSurveyTVC.h */,
+				7F8E10181B387EC300D9C21B /* BTSurveyTVC.m */,
+				7F8E10191B387EC300D9C21B /* BTSurveyTVC.xib */,
+				7F7099361B4524E50077D8EF /* BTTemplateCell.h */,
+				7F7099371B4541140077D8EF /* BTMessageTemplateTVC.h */,
+				7F7099381B4541140077D8EF /* BTMessageTemplateTVC.m */,
+				7F7099391B4541140077D8EF /* BTMessageTemplateTVC.xib */,
+				7F70993F1B45663A0077D8EF /* BTRewardTemplateTVC.h */,
+				7F7099401B45663A0077D8EF /* BTRewardTemplateTVC.m */,
+				7F7099411B45663A0077D8EF /* BTRewardTemplateTVC.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7F64B60E1A9E12570047AA8A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A750EAD51C5C02DA00A79F89 /* NSData+Base64.h */,
+				A750EAD61C5C02DA00A79F89 /* NSData+Base64.m */,
+				7F64B60F1A9E12740047AA8A /* UIView+Gradient.h */,
+				7F64B6101A9E12740047AA8A /* UIView+Gradient.m */,
+				D57ABCF81AAE8DB80046E672 /* NSArray+Plist.h */,
+				D57ABCF91AAE8DB80046E672 /* NSArray+Plist.m */,
+				D5C8B66A1AB570B900E1124D /* NSDate+Additions.h */,
+				D5C8B66B1AB570B900E1124D /* NSDate+Additions.m */,
+				D55AC8371ABBB2BE00603ABE /* NSString+Additions.h */,
+				D55AC8381ABBB2BE00603ABE /* NSString+Additions.m */,
+				7FFB7CBB1ACC8790001025F6 /* UIView+AlertLabel.h */,
+				7FFB7CBC1ACC8790001025F6 /* UIView+AlertLabel.m */,
+				7F493EE41BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.h */,
+				7F493EE51BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.m */,
+				605DA4FA1C74FBD0004DC32E /* NSString+ProfanityDetector.h */,
+				605DA4FB1C74FBD0004DC32E /* NSString+ProfanityDetector.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		7F6859A91A9FA474007E73BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D558A4721AEFD35600CA5429 /* banned_words.plist */,
+				7F6859AA1A9FA48A007E73BE /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F6859AA1A9FA48A007E73BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F2F79A21B219D5200C62522 /* Gotham-Bold.otf */,
+				7F2F79A31B219D5200C62522 /* Gotham-Book.otf */,
+				7F2F79A41B219D5200C62522 /* Gotham-Light.otf */,
+				7F2F79A51B219D5200C62522 /* Gotham-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7F8E10131B386EFE00D9C21B /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E10141B386F0B00D9C21B /* BTEditSurveyVC.h */,
+				7F8E10151B386F0B00D9C21B /* BTEditSurveyVC.m */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
+		7FA61CF31A9E49B3009D57ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F0937DE1CC7CB4400EA4CF6 /* StyledPageControl */,
+				7F4E98B41B30CB45005725A4 /* Chat */,
+				7F549FE51AA1238000508959 /* TableViewCell */,
+				7F14260A1AC32CE000C9CC9A /* MKSearchBar.h */,
+				7F14260B1AC32CE000C9CC9A /* MKSearchBar.m */,
+				7FA61CF41A9E49CD009D57ED /* BTCardView.h */,
+				7FA61CF51A9E49CD009D57ED /* BTCardView.m */,
+				7FA61CF71A9E49DB009D57ED /* BTCardView.xib */,
+				7F8E10011B373CD100D9C21B /* BTSurveyCardView.h */,
+				7F8E10021B373CD100D9C21B /* BTSurveyCardView.m */,
+				7F8E10041B373CEF00D9C21B /* BTSurveyCardView.xib */,
+				7F8F12C81AA389C400E53650 /* BTStatisticsView.h */,
+				7F8F12C91AA389C400E53650 /* BTStatisticsView.m */,
+				7F8F12CB1AA389D600E53650 /* BTStatisticsView.xib */,
+				7FF1B6E01AF0097100D7B575 /* BTEnabledButton.h */,
+				7FF1B6E11AF0097100D7B575 /* BTEnabledButton.m */,
+				7F8E10091B383B6200D9C21B /* BTBarChartView.h */,
+				7F8E100A1B383B6200D9C21B /* BTBarChartView.m */,
+				7FAC08541B48CF5900F44C83 /* BTStatsView.h */,
+				7FAC08551B48CF5900F44C83 /* BTStatsView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F6CB1BCA19BD25ADD0AA80D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB7A9DC6D5EDAF448A6F2E4E /* Pods-BetterIt.debug.xcconfig */,
+				8DD2E123C2748B316AD0DB5B /* Pods-BetterIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7E608E01C519548000B9512 /* IAPHelper */ = {
+			isa = PBXGroup;
+			children = (
+				A7E608E11C519548000B9512 /* IAPHelper.h */,
+				A7E608E21C519548000B9512 /* IAPHelper.m */,
+				A7E608E31C519548000B9512 /* IAPShare.h */,
+				A7E608E41C519548000B9512 /* IAPShare.m */,
+				A7E608E51C519548000B9512 /* NSString+Base64.h */,
+				A7E608E61C519548000B9512 /* NSString+Base64.m */,
+				A7E608E71C519548000B9512 /* SFHFKeychainUtils.h */,
+				A7E608E81C519548000B9512 /* SFHFKeychainUtils.m */,
+			);
+			path = IAPHelper;
+			sourceTree = "<group>";
+		};
+		D52612A61A8846030077F81F = {
+			isa = PBXGroup;
+			children = (
+				7F85FE611C189D9D00CBED69 /* GoogleService-Info.plist */,
+				D52612B11A8846030077F81F /* BetterIt */,
+				D52612B01A8846030077F81F /* Products */,
+				2329DB25D1182D51A636D528 /* Frameworks */,
+				8F6CB1BCA19BD25ADD0AA80D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D52612B01A8846030077F81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D52612AF1A8846030077F81F /* BetterIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D52612B11A8846030077F81F /* BetterIt */ = {
+			isa = PBXGroup;
+			children = (
+				D52612B61A8846030077F81F /* AppDelegate.h */,
+				D52612B71A8846030077F81F /* AppDelegate.m */,
+				D55970111AAF6C97004ADC79 /* Model */,
+				7FA61CF31A9E49B3009D57ED /* View */,
+				7F64B60E1A9E12570047AA8A /* Categories */,
+				D526130A1A8867F60077F81F /* Misc */,
+				D52612D81A884A7E0077F81F /* Controllers */,
+				D52612BC1A8846030077F81F /* Main.storyboard */,
+				D52612BF1A8846030077F81F /* Images.xcassets */,
+				7F6859A91A9FA474007E73BE /* Resources */,
+				D52612B21A8846030077F81F /* Supporting Files */,
+				7F19FFE61B1FB774007EC6F9 /* Launch Screen.xib */,
+			);
+			path = BetterIt;
+			sourceTree = "<group>";
+		};
+		D52612B21A8846030077F81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52612B31A8846030077F81F /* Info.plist */,
+				D52612B41A8846030077F81F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D52612D81A884A7E0077F81F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D55C29791A89978A00E5BDFE /* Main */,
+				D55C297F1A89978A00E5BDFE /* Message */,
+				D55C29841A89978A00E5BDFE /* Profile */,
+				D5B8361C1A893A03004BFCD2 /* Popup */,
+				D5B836191A890C88004BFCD2 /* BTRootVC.h */,
+				D5B8361A1A890C88004BFCD2 /* BTRootVC.m */,
+				7F121DAF1AB8C29F002351D3 /* BTNavigationController.h */,
+				7F121DB01AB8C29F002351D3 /* BTNavigationController.m */,
+				7F7099331B451E990077D8EF /* BTTemplateVC.h */,
+				7F7099341B451E990077D8EF /* BTTemplateVC.m */,
+				7F0937E51CC7CBAE00EA4CF6 /* BTOnboardingVC.h */,
+				7F0937E61CC7CBAE00EA4CF6 /* BTOnboardingVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D526130A1A8867F60077F81F /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				A7E608E01C519548000B9512 /* IAPHelper */,
+				D5C28AE71AB1CA3A005F8264 /* Utils */,
+				D58D2C481AAE0CA6004606F8 /* SynthesizeSingleton.h */,
+				D5B836201A893DD5004BFCD2 /* BTConfig.h */,
+				D5B836211A893DD5004BFCD2 /* BTConfig.m */,
+				D55C29751A89968C00E5BDFE /* Common.h */,
+				D56658D21ABA2EE10089BE00 /* Common.m */,
+				D58D2C451AAE0C6F004606F8 /* BTRestClient.h */,
+				D58D2C461AAE0C6F004606F8 /* BTRestClient.m */,
+				7FA2E9361BE4054F00C063B3 /* BTSurveyManager.h */,
+				7FA2E9371BE4054F00C063B3 /* BTSurveyManager.m */,
+				7F1C3BE21BF420C100A0428C /* NSMutableArray+Shuffle.h */,
+				7F1C3BE31BF420C100A0428C /* NSMutableArray+Shuffle.m */,
+				7F1E48831C06355700556DA0 /* BTPasscodeTextField.h */,
+				7F1E48841C06355700556DA0 /* BTPasscodeTextField.m */,
+				6076328A1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.h */,
+				6076328B1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.m */,
+				606DE4521C932D23006C20C4 /* BTSuspendedUserAlertHelper.h */,
+				606DE4531C932D23006C20C4 /* BTSuspendedUserAlertHelper.m */,
+				606CADA81CA03B55003A7DFA /* WifiStatusHelper.h */,
+				606CADA91CA03B55003A7DFA /* WifiStatusHelper.m */,
+				B023F8601CDA4BF60087161F /* BTSHKConfigurator.h */,
+				B023F8611CDA4BF60087161F /* BTSHKConfigurator.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		D55970111AAF6C97004ADC79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D55970121AAF6CEF004ADC79 /* BTUser.h */,
+				D55970131AAF6CEF004ADC79 /* BTUser.m */,
+				D597409F1AAF825E0086D824 /* BTModel.h */,
+				D59740A01AAF825E0086D824 /* BTModel.m */,
+				D5E076111AB0988B00D5F01C /* BTBusiness.h */,
+				D5E076121AB0988B00D5F01C /* BTBusiness.m */,
+				D5B3E5601AB231D8001B578D /* BTMessage.h */,
+				D5B3E5611AB231D8001B578D /* BTMessage.m */,
+				D5B3E5631AB29C74001B578D /* BTMessageSession.h */,
+				D5B3E5641AB29C74001B578D /* BTMessageSession.m */,
+				D5C8B6671AB5665100E1124D /* BTObject.h */,
+				D5C8B6681AB5665100E1124D /* BTObject.m */,
+				7FB8ED901ABFD1A0005FAA50 /* BTSubscription.h */,
+				7FB8ED911ABFD1A0005FAA50 /* BTSubscription.m */,
+				7FB8ED961AC038FA005FAA50 /* BTIncentive.h */,
+				7FB8ED971AC038FA005FAA50 /* BTIncentive.m */,
+				7F8E10061B3758AD00D9C21B /* BTSurvey.h */,
+				7F8E10071B3758AD00D9C21B /* BTSurvey.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D55AC83D1ABBDAF000603ABE /* MessageSessionTVC */ = {
+			isa = PBXGroup;
+			children = (
+				D55AC83E1ABBDB1600603ABE /* BTMessageSessionTVC.h */,
+				7F2A14E41AA8D3C700A2129B /* BTUserSessionTVC.h */,
+				7F2A14E51AA8D3C700A2129B /* BTUserSessionTVC.m */,
+				7F2A14E61AA8D3C700A2129B /* BTUserSessionTVC.xib */,
+				D55AC83F1ABBDD0D00603ABE /* BTBusinessSessionTVC.h */,
+				D55AC8401ABBDD0D00603ABE /* BTBusinessSessionTVC.m */,
+				D55AC8411ABBDD0D00603ABE /* BTBusinessSessionTVC.xib */,
+			);
+			name = MessageSessionTVC;
+			sourceTree = "<group>";
+		};
+		D55C29791A89978A00E5BDFE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E10131B386EFE00D9C21B /* Survey */,
+				D55C29AD1A89F1BF00E5BDFE /* Search */,
+				D55C297A1A89978A00E5BDFE /* BTMainProtocol.h */,
+				D55C297B1A89978A00E5BDFE /* BTMainVCBusiness.h */,
+				D55C297C1A89978A00E5BDFE /* BTMainVCBusiness.m */,
+				D55C297D1A89978A00E5BDFE /* BTMainVCUser.h */,
+				D55C297E1A89978A00E5BDFE /* BTMainVCUser.m */,
+				7FFBC5DE1BD6828F00D08DCD /* BTFeedbackSentVC.h */,
+				7FFBC5DF1BD6828F00D08DCD /* BTFeedbackSentVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D55C297F1A89978A00E5BDFE /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				D55C29B41A89F1C900E5BDFE /* Chat */,
+				D55C29801A89978A00E5BDFE /* BTMessageVCBusiness.h */,
+				D55C29811A89978A00E5BDFE /* BTMessageVCBusiness.m */,
+				D55C29821A89978A00E5BDFE /* BTMessageVCUser.h */,
+				D55C29831A89978A00E5BDFE /* BTMessageVCUser.m */,
+				D55C29A01A89E1D200E5BDFE /* BTMessageBaseVC.h */,
+				D55C29A11A89E1D200E5BDFE /* BTMessageBaseVC.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		D55C29841A89978A00E5BDFE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D55C29BE1A89F1EC00E5BDFE /* Business Setup */,
+				D55C29851A89978A00E5BDFE /* BTProfileVCBusiness.h */,
+				D55C29861A89978A00E5BDFE /* BTProfileVCBusiness.m */,
+				D55C29871A89978A00E5BDFE /* BTProfileVCUser.h */,
+				D55C29881A89978A00E5BDFE /* BTProfileVCUser.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D55C29AD1A89F1BF00E5BDFE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				D55C29AE1A89F1BF00E5BDFE /* BTSearchMainVC.h */,
+				D55C29AF1A89F1BF00E5BDFE /* BTSearchMainVC.m */,
+				D55C29B01A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.h */,
+				D55C29B11A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.m */,
+				D5E076141AB0A2DF00D5F01C /* BTSearchBusinessController.h */,
+				D5E076151AB0A2DF00D5F01C /* BTSearchBusinessController.m */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		D55C29B41A89F1C900E5BDFE /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D55C29B51A89F1C900E5BDFE /* BTChatBaseVC.h */,
+				D55C29B61A89F1C900E5BDFE /* BTChatBaseVC.m */,
+				D55C29B71A89F1C900E5BDFE /* BTChatVCBusiness.h */,
+				D55C29B81A89F1C900E5BDFE /* BTChatVCBusiness.m */,
+				D55C29B91A89F1C900E5BDFE /* BTChatVCUser.h */,
+				D55C29BA1A89F1C900E5BDFE /* BTChatVCUser.m */,
+				D5C8B6751AB71B6D00E1124D /* BTPhotoFullScreenVC.h */,
+				D5C8B6761AB71B6D00E1124D /* BTPhotoFullScreenVC.m */,
+				7FB8ED931AC0366B005FAA50 /* BTViewRewardsVC.h */,
+				7FB8ED941AC0366B005FAA50 /* BTViewRewardsVC.m */,
+				7F9CAD881ACCE66A00648CB8 /* BTSendRewardVC.h */,
+				7F9CAD891ACCE66A00648CB8 /* BTSendRewardVC.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D55C29BE1A89F1EC00E5BDFE /* Business Setup */ = {
+			isa = PBXGroup;
+			children = (
+				D55C29C21A89F25000E5BDFE /* BTProfileSetupController.h */,
+				D55C29C31A89F25000E5BDFE /* BTProfileSetupController.m */,
+				D55C29C51A89F2CC00E5BDFE /* BTProfileSetupIntroVC.h */,
+				D55C29C61A89F2CC00E5BDFE /* BTProfileSetupIntroVC.m */,
+				D55C29C81A89F34C00E5BDFE /* BTProfileSetupFinalVC.h */,
+				D55C29C91A89F34C00E5BDFE /* BTProfileSetupFinalVC.m */,
+			);
+			path = "Business Setup";
+			sourceTree = "<group>";
+		};
+		D5B8361C1A893A03004BFCD2 /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8361D1A893A1A004BFCD2 /* BTPopupBaseVC.h */,
+				D5B8361E1A893A1A004BFCD2 /* BTPopupBaseVC.m */,
+				7F64B6121A9E1F8C0047AA8A /* BTWelcomePopupVC.h */,
+				7F64B6131A9E1F8C0047AA8A /* BTWelcomePopupVC.m */,
+				D55AC83A1ABBC43F00603ABE /* BTUpdatePINVC.h */,
+				D55AC83B1ABBC43F00603ABE /* BTUpdatePINVC.m */,
+				7FD653421BF8659300EE9C59 /* BTSubscriptionVC.h */,
+				7FD653431BF8659300EE9C59 /* BTSubscriptionVC.m */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		D5C28AE71AB1CA3A005F8264 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B023F8661CDA68FD0087161F /* BTFortuneCard.h */,
+				B023F8671CDA68FD0087161F /* BTFortuneCard.m */,
+				D5C28AE81AB1CA50005F8264 /* NoAnimationPushSegue.h */,
+				D5C28AE91AB1CA50005F8264 /* NoAnimationPushSegue.m */,
+				7FBEDC891C2985A70036739A /* NavigationBarDrawingKit.h */,
+				7FBEDC8A1C2985A70036739A /* NavigationBarDrawingKit.m */,
+				7FBEDC911C298B8C0036739A /* BTNavBarIconView.h */,
+				7FBEDC921C298B8C0036739A /* BTNavBarIconView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D52612AE1A8846030077F81F /* BetterIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D52612D21A8846040077F81F /* Build configuration list for PBXNativeTarget "BetterIt" */;
+			buildPhases = (
+				5E2EC74228F23250BD8BA92D /* [CP] Check Pods Manifest.lock */,
+				D52612AB1A8846030077F81F /* Sources */,
+				D52612AC1A8846030077F81F /* Frameworks */,
+				D52612AD1A8846030077F81F /* Resources */,
+				7F9AB6521AF9560B008179FD /* ShellScript */,
+				D27716B166ABDB818AF00EAA /* [CP] Embed Pods Frameworks */,
+				5774C82B34AC9CCD2F35C9CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterIt;
+			productName = BetterIt;
+			productReference = D52612AF1A8846030077F81F /* BetterIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D52612A71A8846030077F81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Maikel;
+				TargetAttributes = {
+					D52612AE1A8846030077F81F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = QP9HTA8E8J;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D52612AA1A8846030077F81F /* Build configuration list for PBXProject "BetterIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D52612A61A8846030077F81F;
+			productRefGroup = D52612B01A8846030077F81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D52612AE1A8846030077F81F /* BetterIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D52612AD1A8846030077F81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4E98B01B307351005725A4 /* Gotham-Bold.otf in Resources */,
+				7F4E98B71B30CB77005725A4 /* JSQMessagesCustomCVCIncoming.xib in Resources */,
+				7F4E98B11B307351005725A4 /* Gotham-Book.otf in Resources */,
+				7F4E98B21B307351005725A4 /* Gotham-Light.otf in Resources */,
+				7F4E98B31B307351005725A4 /* Gotham-Medium.otf in Resources */,
+				D52612BE1A8846030077F81F /* Main.storyboard in Resources */,
+				7F549FEA1AA123C600508959 /* BTSearchBusinessTVC.xib in Resources */,
+				7F19FFE71B1FB774007EC6F9 /* Launch Screen.xib in Resources */,
+				7F8E101B1B387EC300D9C21B /* BTSurveyTVC.xib in Resources */,
+				D558A4731AEFD35600CA5429 /* banned_words.plist in Resources */,
+				7F4E98B81B30CB77005725A4 /* JSQMessagesCustomCVCOutgoing.xib in Resources */,
+				7F2A14E81AA8D3C700A2129B /* BTUserSessionTVC.xib in Resources */,
+				D55AC8431ABBDD0D00603ABE /* BTBusinessSessionTVC.xib in Resources */,
+				7F8F12CC1AA389D600E53650 /* BTStatisticsView.xib in Resources */,
+				7FA61CF81A9E49DB009D57ED /* BTCardView.xib in Resources */,
+				7F8E10051B373CEF00D9C21B /* BTSurveyCardView.xib in Resources */,
+				D52612C01A8846030077F81F /* Images.xcassets in Resources */,
+				7F85FE621C189D9D00CBED69 /* GoogleService-Info.plist in Resources */,
+				7F70993B1B4541140077D8EF /* BTMessageTemplateTVC.xib in Resources */,
+				7F7099431B45663A0077D8EF /* BTRewardTemplateTVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5774C82B34AC9CCD2F35C9CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BetterIt/Pods-BetterIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2EC74228F23250BD8BA92D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F9AB6521AF9560B008179FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 97dc79c84fb8ff9c371e14d5ad45bcd568927a44 e04e2a6d40656c42a96d1a76c3e10ba519c0b33e51e5718769e5662eab88ad4f";
+		};
+		D27716B166ABDB818AF00EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BetterIt/Pods-BetterIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D52612AB1A8846030077F81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA86B941B3169FC00E9C42C /* JSQMessagesCustomCVC.m in Sources */,
+				7F1E48851C06355700556DA0 /* BTPasscodeTextField.m in Sources */,
+				D55C29BB1A89F1C900E5BDFE /* BTChatBaseVC.m in Sources */,
+				7FA2E9381BE4054F00C063B3 /* BTSurveyManager.m in Sources */,
+				D55C29B31A89F1BF00E5BDFE /* BTSearchRecentPlaceVC.m in Sources */,
+				D55C29BD1A89F1C900E5BDFE /* BTChatVCUser.m in Sources */,
+				6076328C1C6A2ACA00DECAA9 /* BTUserIdentifierHelper.m in Sources */,
+				D55970141AAF6CEF004ADC79 /* BTUser.m in Sources */,
+				7F14260C1AC32CE000C9CC9A /* MKSearchBar.m in Sources */,
+				A7E608EB1C519548000B9512 /* NSString+Base64.m in Sources */,
+				D55C29901A89978A00E5BDFE /* BTMessageVCBusiness.m in Sources */,
+				D55AC83C1ABBC43F00603ABE /* BTUpdatePINVC.m in Sources */,
+				D52612B81A8846030077F81F /* AppDelegate.m in Sources */,
+				7F70993A1B4541140077D8EF /* BTMessageTemplateTVC.m in Sources */,
+				A7E608EC1C519548000B9512 /* SFHFKeychainUtils.m in Sources */,
+				7FBEDC931C298B8C0036739A /* BTNavBarIconView.m in Sources */,
+				7F549FE91AA123C600508959 /* BTSearchBusinessTVC.m in Sources */,
+				D5B3E5621AB231D8001B578D /* BTMessage.m in Sources */,
+				D59740A11AAF825E0086D824 /* BTModel.m in Sources */,
+				D55C29CA1A89F34C00E5BDFE /* BTProfileSetupFinalVC.m in Sources */,
+				7FA61CF61A9E49CD009D57ED /* BTCardView.m in Sources */,
+				D58D2C471AAE0C6F004606F8 /* BTRestClient.m in Sources */,
+				7F7099421B45663A0077D8EF /* BTRewardTemplateTVC.m in Sources */,
+				7F8E101A1B387EC300D9C21B /* BTSurveyTVC.m in Sources */,
+				7F8E10161B386F0B00D9C21B /* BTEditSurveyVC.m in Sources */,
+				D56658D31ABA2EE10089BE00 /* Common.m in Sources */,
+				7F493EE61BD0D9F000D0F379 /* INTULocationManager+CurrentLocation.m in Sources */,
+				7F9CAD8A1ACCE66A00648CB8 /* BTSendRewardVC.m in Sources */,
+				D55C298F1A89978A00E5BDFE /* BTMainVCUser.m in Sources */,
+				D55AC8421ABBDD0D00603ABE /* BTBusinessSessionTVC.m in Sources */,
+				D5C28AEA1AB1CA50005F8264 /* NoAnimationPushSegue.m in Sources */,
+				D5C8B6691AB5665100E1124D /* BTObject.m in Sources */,
+				7F0937E71CC7CBAE00EA4CF6 /* BTOnboardingVC.m in Sources */,
+				7F1C3BE41BF420C100A0428C /* NSMutableArray+Shuffle.m in Sources */,
+				D57ABCFA1AAE8DB80046E672 /* NSArray+Plist.m in Sources */,
+				D55C29B21A89F1BF00E5BDFE /* BTSearchMainVC.m in Sources */,
+				D55C29931A89978A00E5BDFE /* BTProfileVCUser.m in Sources */,
+				D55C29A21A89E1D200E5BDFE /* BTMessageBaseVC.m in Sources */,
+				606DE4541C932D23006C20C4 /* BTSuspendedUserAlertHelper.m in Sources */,
+				B023F8621CDA4BF60087161F /* BTSHKConfigurator.m in Sources */,
+				D55C29C41A89F25000E5BDFE /* BTProfileSetupController.m in Sources */,
+				D5B3E5651AB29C74001B578D /* BTMessageSession.m in Sources */,
+				D55C29BC1A89F1C900E5BDFE /* BTChatVCBusiness.m in Sources */,
+				7F8E10031B373CD100D9C21B /* BTSurveyCardView.m in Sources */,
+				7FB8ED981AC038FA005FAA50 /* BTIncentive.m in Sources */,
+				7FFBC5E01BD6828F00D08DCD /* BTFeedbackSentVC.m in Sources */,
+				7F8F12CA1AA389C400E53650 /* BTStatisticsView.m in Sources */,
+				D5C8B66C1AB570B900E1124D /* NSDate+Additions.m in Sources */,
+				B023F8681CDA68FD0087161F /* BTFortuneCard.m in Sources */,
+				7FB8ED951AC0366B005FAA50 /* BTViewRewardsVC.m in Sources */,
+				606CADAA1CA03B55003A7DFA /* WifiStatusHelper.m in Sources */,
+				7FF1B6E21AF0097100D7B575 /* BTEnabledButton.m in Sources */,
+				7F0937E11CC7CB5800EA4CF6 /* StyledPageControl.m in Sources */,
+				7FAC08561B48CF5900F44C83 /* BTStatsView.m in Sources */,
+				D5C8B6771AB71B6D00E1124D /* BTPhotoFullScreenVC.m in Sources */,
+				605DA4FC1C74FBD0004DC32E /* NSString+ProfanityDetector.m in Sources */,
+				D5E076161AB0A2DF00D5F01C /* BTSearchBusinessController.m in Sources */,
+				D55C29C71A89F2CC00E5BDFE /* BTProfileSetupIntroVC.m in Sources */,
+				A7E608EA1C519548000B9512 /* IAPShare.m in Sources */,
+				7FB8ED921ABFD1A0005FAA50 /* BTSubscription.m in Sources */,
+				D55AC8391ABBB2BE00603ABE /* NSString+Additions.m in Sources */,
+				7F8E100B1B383B6200D9C21B /* BTBarChartView.m in Sources */,
+				7F8E10081B3758AD00D9C21B /* BTSurvey.m in Sources */,
+				D5B836221A893DD5004BFCD2 /* BTConfig.m in Sources */,
+				A750EAD71C5C02DA00A79F89 /* NSData+Base64.m in Sources */,
+				7F4E98C11B30D083005725A4 /* JSQMessagesCustomCVCOutgoing.m in Sources */,
+				7FFB7CBD1ACC8790001025F6 /* UIView+AlertLabel.m in Sources */,
+				D55C29921A89978A00E5BDFE /* BTProfileVCBusiness.m in Sources */,
+				D52612B51A8846030077F81F /* main.m in Sources */,
+				7F7099351B451E990077D8EF /* BTTemplateVC.m in Sources */,
+				A7E608E91C519548000B9512 /* IAPHelper.m in Sources */,
+				7F121DB11AB8C29F002351D3 /* BTNavigationController.m in Sources */,
+				D55C298E1A89978A00E5BDFE /* BTMainVCBusiness.m in Sources */,
+				D5E076131AB0988B00D5F01C /* BTBusiness.m in Sources */,
+				D5B8361B1A890C88004BFCD2 /* BTRootVC.m in Sources */,
+				7F4E98BB1B30D016005725A4 /* JSQMessagesCustomCVCIncoming.m in Sources */,
+				7F64B6141A9E1F8C0047AA8A /* BTWelcomePopupVC.m in Sources */,
+				D55C29911A89978A00E5BDFE /* BTMessageVCUser.m in Sources */,
+				7F2A14E71AA8D3C700A2129B /* BTUserSessionTVC.m in Sources */,
+				7F64B6111A9E12740047AA8A /* UIView+Gradient.m in Sources */,
+				7FBEDC8B1C2985A70036739A /* NavigationBarDrawingKit.m in Sources */,
+				7FD653441BF8659300EE9C59 /* BTSubscriptionVC.m in Sources */,
+				D5B8361F1A893A1A004BFCD2 /* BTPopupBaseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D52612BC1A8846030077F81F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D52612BD1A8846030077F81F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D52612D01A8846040077F81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D52612D11A8846040077F81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D52612D31A8846040077F81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7A9DC6D5EDAF448A6F2E4E /* Pods-BetterIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BetterIt Communications Inc (QP9HTA8E8J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					STRIPE_ENABLE_APPLEPAY,
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BetterIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dunn.Shawn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cf208c24-6805-490b-95b9-4c40181f58dd";
+			};
+			name = Debug;
+		};
+		D52612D41A8846040077F81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DD2E123C2748B316AD0DB5B /* Pods-BetterIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BetterIt Communications Inc (QP9HTA8E8J)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					STRIPE_ENABLE_APPLEPAY,
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = BetterIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dunn.Shawn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cf208c24-6805-490b-95b9-4c40181f58dd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D52612AA1A8846030077F81F /* Build configuration list for PBXProject "BetterIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52612D01A8846040077F81F /* Debug */,
+				D52612D11A8846040077F81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D52612D21A8846040077F81F /* Build configuration list for PBXNativeTarget "BetterIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D52612D31A8846040077F81F /* Debug */,
+				D52612D41A8846040077F81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D52612A71A8846030077F81F /* Project object */;
+}

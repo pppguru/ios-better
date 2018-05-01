@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D7A0F00D60F33515B7CF4B229BEF500AE59395D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D7A0F00D60F33515B7CF4B229BEF500AE59395D" : 0,
+    "B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F79FA74F-1921-4B6D-8EF6-8F8C50F26FB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D7A0F00D60F33515B7CF4B229BEF500AE59395D" : "iOS\/",
+    "B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F" : "BetterIt"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BetterIt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BetterIt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/betterit\/Frontend-App-Repo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D7A0F00D60F33515B7CF4B229BEF500AE59395D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/maikel_van_hout\/betterit_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F"
+    }
+  ]
+}

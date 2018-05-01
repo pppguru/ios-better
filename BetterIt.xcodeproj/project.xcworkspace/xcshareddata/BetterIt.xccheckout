@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F79FA74F-1921-4B6D-8EF6-8F8C50F26FB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BetterIt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F</key>
+		<string>https://bitbucket.org/maikel_van_hout/betterit_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BetterIt.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/maikel_van_hout/betterit_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B9C2516EE13CDF2B6FF8CB6C86BA00079D57A57F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BetterIt</string>
+		</dict>
+	</array>
+</dict>
+</plist>

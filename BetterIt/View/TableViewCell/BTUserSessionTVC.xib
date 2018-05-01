@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Book.otf">
+            <string>Gotham-Book</string>
+            <string>Gotham-Book</string>
+        </mutableArray>
+        <mutableArray key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="BTUserSessionTVC">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_thumbsup" translatesAutoresizingMaskIntoConstraints="NO" id="yCH-dj-kvl">
+                        <rect key="frame" x="20" y="21" width="20" height="27"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="eBV-xE-JcJ"/>
+                            <constraint firstAttribute="width" constant="20" id="r52-fJ-rlc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="California Pizza Kitchen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UpY-La-dHh">
+                        <rect key="frame" x="60" y="15" width="244" height="15"/>
+                        <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="15"/>
+                        <color key="textColor" red="0.34509803921568627" green="0.34901960784313724" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="inv-Fe-vlh">
+                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                    </imageView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0W-jt-pSg">
+                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="viewRewardsAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="o24-3K-rxc"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You: Food was amazing..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8l-5T-23Z">
+                        <rect key="frame" x="60" y="33" width="244" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="yPz-k4-qnE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="13"/>
+                        <color key="textColor" red="0.34509803921568627" green="0.34901960784313724" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8h ago" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTt-CO-j4P">
+                        <rect key="frame" x="271" y="55" width="35" height="10"/>
+                        <fontDescription key="fontDescription" name="Gotham-Book" family="Gotham" pointSize="10"/>
+                        <color key="textColor" red="0.94117647059999998" green="0.74509803919999995" blue="0.066666666669999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JtC-2U-OIG">
+                        <rect key="frame" x="0.0" y="0.0" width="5" height="69"/>
+                        <color key="backgroundColor" red="0.25098039215686274" green="0.50196078431372548" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="2x2-PW-Egv"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sTt-CO-j4P" secondAttribute="bottom" constant="4" id="2gH-wo-8Un"/>
+                    <constraint firstItem="UpY-La-dHh" firstAttribute="leading" secondItem="m8l-5T-23Z" secondAttribute="leading" id="3Gs-2K-tFf"/>
+                    <constraint firstItem="JtC-2U-OIG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Afl-mY-GJd"/>
+                    <constraint firstItem="yCH-dj-kvl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="NZf-lQ-lzO"/>
+                    <constraint firstAttribute="centerY" secondItem="m8l-5T-23Z" secondAttribute="centerY" constant="-8" id="Ufa-Q0-ij1"/>
+                    <constraint firstItem="JtC-2U-OIG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VTW-UK-ptB"/>
+                    <constraint firstAttribute="trailing" secondItem="m8l-5T-23Z" secondAttribute="trailing" constant="16" id="XWG-Hp-rdo"/>
+                    <constraint firstAttribute="bottom" secondItem="JtC-2U-OIG" secondAttribute="bottom" id="aw2-YJ-3dH"/>
+                    <constraint firstItem="UpY-La-dHh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="fho-81-lFw"/>
+                    <constraint firstAttribute="centerY" secondItem="yCH-dj-kvl" secondAttribute="centerY" id="ggG-TR-SoQ"/>
+                    <constraint firstAttribute="trailing" secondItem="sTt-CO-j4P" secondAttribute="trailing" constant="14" id="jYu-r5-MyD"/>
+                    <constraint firstAttribute="trailing" secondItem="UpY-La-dHh" secondAttribute="trailing" constant="16" id="k0a-Ud-CyU"/>
+                    <constraint firstItem="UpY-La-dHh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="60" id="kDA-xS-X3J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnViewReward" destination="J0W-jt-pSg" id="hxd-k1-bTb"/>
+                <outlet property="imgIcon" destination="yCH-dj-kvl" id="mEa-Cu-BnV"/>
+                <outlet property="imgReward" destination="inv-Fe-vlh" id="QBP-F6-x6f"/>
+                <outlet property="imgUnreadIndicator" destination="JtC-2U-OIG" id="kmy-ua-iUq"/>
+                <outlet property="lblSubTitle" destination="m8l-5T-23Z" id="1uo-ZI-1ar"/>
+                <outlet property="lblTimestamp" destination="sTt-CO-j4P" id="tdY-Nc-Vpe"/>
+                <outlet property="lblTitle" destination="UpY-La-dHh" id="0XE-pg-jPt"/>
+            </connections>
+            <point key="canvasLocation" x="575" y="405"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icn_thumbsup" width="20" height="27"/>
+    </resources>
+</document>
